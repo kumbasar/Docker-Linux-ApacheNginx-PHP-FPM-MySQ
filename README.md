@@ -22,5 +22,15 @@ owners.
 
 Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 
-mysql>
+mysql> exit
+Bye
+root@30b67eb3af95:/# exit
+exit
+ghost:Docker-Linux-ApacheNginx-PHP-FPM-MySQL kumbasar$ docker-compose ps
+                 Name                                Command              State           Ports
+--------------------------------------------------------------------------------------------------------
+dockerlinuxapachenginxphpfpmmysql_php_1   docker-php-entrypoint php-fpm   Up      9000/tcp
+dockerlinuxapachenginxphpfpmmysql_web_1   nginx -g daemon off;            Up      0.0.0.0:80->80/tcp
+mysql                                     docker-entrypoint.sh mysqld     Up      0.0.0.0:3306->3306/tcp
+ghost:Docker-Linux-ApacheNginx-PHP-FPM-MySQL kumbasar$
 ```
