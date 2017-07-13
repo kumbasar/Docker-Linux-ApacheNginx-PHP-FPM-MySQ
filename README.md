@@ -1,4 +1,5 @@
 
+```sh
 ghost:Docker-Linux-ApacheNginx-PHP-FPM-MySQL kumbasar$ docker-compose up -d
 Starting dockerlinuxapachenginxphpfpmmysql_php_1 ...
 Starting dockerlinuxapachenginxphpfpmmysql_php_1
@@ -22,3 +23,4 @@ owners.
 Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 
 mysql>
+```
