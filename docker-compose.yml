@@ -22,3 +22,5 @@ mysqldb:
  - MYSQL_PASSWORD=developer
  ports:
  - 3306:3306
+ volumes:
+ - ./db:/var/lib/mysql
