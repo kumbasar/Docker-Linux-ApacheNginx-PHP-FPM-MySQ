@@ -2,3 +2,5 @@ web:
  image: nginx:latest
  ports:
  - "80:80"
+ volumes:
+ - ./code:/code
